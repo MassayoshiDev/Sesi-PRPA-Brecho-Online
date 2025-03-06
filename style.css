@@ -25,3 +25,9 @@ body{
 #anni{
     background-color: aqua;
 }
+
+#rodape {
+   background-color: hwb(0 72% 28%);
+   height: 150px;
+  margin: 10px;
+}
