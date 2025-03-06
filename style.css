@@ -29,12 +29,26 @@ body{
     height: 330px;
     background-color: purple;
     overflow: hidden;
+    border-radius: 13px;
 }
 
-.ImgBox > img{
+.imgType1{
     width: 100%;
     padding-bottom: 100px;
     object-fit: cover;
     object-position: 0px -40px;
-    border-radius: 0px 0px 13px 13px;
+    border-radius: 13px;
+}
+
+.CenterDesc{
+    text-align: center;
+}
+
+.imgType2{
+    width: 100%;
+    padding-bottom: 100px;
+    object-fit: cover;
+    object-position: 0px -200px;
+    border-radius: 13px;
+    height: 200px;
 }
