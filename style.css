@@ -5,25 +5,81 @@ body{
 }
 
 .MainContainer{
-    background-color: red;
     width: 100%;
     height: 500px;
     display: flex;
     justify-content: center;
     gap: 20px;
-    overflow: hidden;
 }
 
 .MainBox{
     height: 500px;
     width: 350px;
-    background-color: blue;
     border-radius: 13px;
     border: 4px solid rgb(95, 95, 95);
+    overflow: hidden;
 }
 
 #anni{
     background-color: #41424C;
     height: 100px;
     width: 100%;
+}
+
+.ImgBox{
+    width: 350px;
+    height: 330px;
+    background-color: purple;
+    overflow: hidden;
+    border-radius: 13px;
+}
+
+.imgType1{
+    width: 100%;
+    padding-bottom: 100px;
+    object-fit: cover;
+    object-position: 0px -40px;
+    border-radius: 13px;
+}
+
+.CenterDesc{
+    text-align: center;
+}
+
+.imgType2{
+    width: 100%;
+    padding-bottom: 100px;
+    object-fit: cover;
+    object-position: 0px -200px;
+    border-radius: 13px;
+    height: 200px;
+}
+
+.ImgBox{
+    width: 350px;
+    height: 330px;
+    background-color: purple;
+    overflow: hidden;
+    border-radius: 13px;
+}
+
+.imgType1{
+    width: 100%;
+    padding-bottom: 100px;
+    object-fit: cover;
+    object-position: 0px -40px;
+    border-radius: 13px;
+}
+
+.CenterDesc{
+    text-align: center;
+}
+
+.imgType2{
+    width: 100%;
+    padding-bottom: 100px;
+    object-fit: cover;
+    object-position: 0px -200px;
+    border-radius: 13px;
+    height: 200px;
 }
