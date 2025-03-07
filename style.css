@@ -16,12 +16,12 @@ body{
     height: 500px;
     width: 350px;
     border-radius: 13px;
-    border: 4px solid rgb(95, 95, 95);
+    border: 4px solid rgb(66, 66, 66)
     overflow: hidden;
 }
 
 #anni{
-    background-color: #41424C;
+    background-color: #c5c5c5;
     height: 100px;
     width: 100%;
 }
