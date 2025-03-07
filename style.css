@@ -77,3 +77,29 @@ body{
 .CenterDesc{
     text-align: center;
 }
+
+.contato{
+    background-color: gray;
+    width: 206px;
+    height: 230px;
+    border-radius: 3px;
+    text-align:center;
+    margin:auto;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.contato > label{
+    color:white;
+}
+
+.contato > button{
+    width:100px;
+    margin: auto
+}
+
+.IncInputBoxSize{
+    height: 50px;
+}
