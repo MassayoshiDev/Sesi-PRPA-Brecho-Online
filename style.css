@@ -209,3 +209,8 @@ a{
     display: flex;
     justify-content: center;
 }
+
+hr{
+    width: 80%;
+    margin: auto;
+}
