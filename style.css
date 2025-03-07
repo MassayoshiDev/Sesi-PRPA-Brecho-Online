@@ -28,16 +28,27 @@ body{
 #anni{
     background-color: #41424C;
 
-    height: 100px;
+    height: 85px;
     width: 100%;
 }
 
+.flex>h1{
+    color: white;
+}
+
 .flex{
+    justify-content: center;
  display: flex;
 }
 
 .flex >h1{
-    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+.flex>h1>a:hover{
+    color: #a7a7a7;
 }
 
 .h1{
@@ -60,6 +71,9 @@ body{
     border-radius: 13px;
 }
 
+.flex>img{
+    width: 70px;
+}
 
 .imgType1{
     width: 100%;
@@ -139,6 +153,8 @@ body{
 
 .cat {
     width: 250px;
+    border-radius: 20px;
+    padding-right: 40px;
 }
 #rodape {
     background-color: hwb(0 72% 28%);
@@ -165,4 +181,31 @@ a{
 #rodape>p{
     margin: 0;
     padding: 0;
+}
+
+.LilContainer{
+    margin: auto;
+    width: 250px;
+    background-color: red;
+    display: flex;
+    overflow-x: auto;
+    border-radius: 5px;
+}
+
+.LilBox{
+    height:250px;
+    width: 250px;
+    background-color: black;
+    overflow: hidden;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+}
+
+.LilBox>img{
+    width: 100%;
+}
+
+.AboutUs{
+    display: flex;
+    justify-content: center;
 }
