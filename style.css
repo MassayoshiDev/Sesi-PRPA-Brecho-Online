@@ -44,6 +44,10 @@ body{
     color: #ffffff;
 }
 
+.main{
+    text-align: center;
+}
+
 .ImgBox{
     width: 350px;
     height: 330px;
