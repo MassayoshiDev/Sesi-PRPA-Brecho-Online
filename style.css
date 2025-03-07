@@ -4,6 +4,7 @@ body{
     background-color: rgb(219, 219, 219);
 }
 
+
 .MainContainer{
     width: 100%;
     height: 527px;
@@ -12,21 +13,24 @@ body{
     overflow-x: auto;
 }
 
+
 .MainBox{
     height: 500px;
     width: 350px;
     border-radius: 13px;
-    border: 4px solid rgb(66, 66, 66)
+    border: 4px solid rgb(95, 95, 95);
     overflow: hidden;
     flex: 0 0 auto;
     scroll-snap-align: start;
 }
 
+
 #anni{
-    background-color: #c5c5c5;
+    background-color: #41424C;
     height: 100px;
     width: 100%;
 }
+
 
 .ImgBox{
     width: 350px;
@@ -36,6 +40,7 @@ body{
     border-radius: 13px;
 }
 
+
 .imgType1{
     width: 100%;
     padding-bottom: 100px;
@@ -44,9 +49,11 @@ body{
     border-radius: 13px;
 }
 
+
 .CenterDesc{
     text-align: center;
 }
+
 
 .imgType2{
     width: 100%;
@@ -57,6 +64,7 @@ body{
     height: 200px;
 }
 
+
 .ImgBox{
     width: 350px;
     height: 330px;
@@ -64,6 +72,7 @@ body{
     overflow: hidden;
     border-radius: 13px;
 }
+
 
 .ImgBox > img{
     width: 100%;
@@ -73,9 +82,11 @@ body{
     border-radius: 13px;
 }
 
+
 .CenterDesc{
     text-align: center;
 }
+
 
 .contato{
     background-color: gray;
@@ -90,22 +101,21 @@ body{
     margin: 10px;
 }
 
+
 .contato > label{
     color:white;
 }
+
 
 .contato > button{
     width:100px;
     margin: auto
 }
 
+
 .IncInputBoxSize{
     height: 50px;
 }
 
 
-#rodape {
-   background-color: hwb(0 72% 28%);
-   height: 150px;
-  margin: 10px;
-}
+
