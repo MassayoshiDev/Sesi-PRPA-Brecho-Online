@@ -154,8 +154,15 @@ body{
 #rodape{
     background-color: #41424C;
     color: #ffffff;
+    margin: 0;
 }
 
-h1>a{
+a{
     text-decoration: none;
+    color: white;
+}
+
+#rodape>p{
+    margin: 0;
+    padding: 0;
 }
