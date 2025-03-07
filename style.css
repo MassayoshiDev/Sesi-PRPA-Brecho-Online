@@ -22,7 +22,7 @@ body{
 
 #anni{
     background-color: #41424C;
-    height: 100px;
+    height: 50px;
     width: 100%;
 }
 
@@ -82,4 +82,14 @@ body{
     object-position: 0px -200px;
     border-radius: 13px;
     height: 200px;
+}
+
+#anni > h1{
+margin: 0%;
+color: rgb(255, 255, 255);
+
+}
+
+.flex{
+    flex: auto;
 }
