@@ -40,12 +40,20 @@ body{
     padding-left: 100px;
 }
 
+.flex>h1>a:hover{
+    color: #a7a7a7;
+}
+
 .h1{
     color: #ffffff;
 }
 
 .main{
     text-align: center;
+}
+
+.sim{
+    font-size: smaller;
 }
 
 .ImgBox{
