@@ -141,3 +141,7 @@ body{
 #rodape{
     background-color: #41424C;
 }
+
+h1>a{
+    text-decoration: none;
+}
