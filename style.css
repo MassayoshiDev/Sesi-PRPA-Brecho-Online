@@ -64,6 +64,9 @@ body{
     border-radius: 13px;
 }
 
+.flex>img{
+    width: 70px;
+}
 
 .imgType1{
     width: 100%;
@@ -169,4 +172,26 @@ a{
 #rodape>p{
     margin: 0;
     padding: 0;
+}
+
+.LilContainer{
+    margin: auto;
+    width: 250px;
+    background-color: red;
+    display: flex;
+    overflow-x: auto;
+    border-radius: 5px;
+}
+
+.LilBox{
+    height:250px;
+    width: 250px;
+    background-color: black;
+    overflow: hidden;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+}
+
+.LilBox>img{
+    width: 100%;
 }
