@@ -44,6 +44,10 @@ body{
     color: #ffffff;
 }
 
+.main{
+    text-align: center;
+}
+
 .ImgBox{
     width: 350px;
     height: 330px;
@@ -133,7 +137,20 @@ body{
     width: 250px;
 }
 #rodape {
-   background-color: hwb(0 72% 28%);
-   height: 150px;
-  margin: 10px;
+    background-color: hwb(0 72% 28%);
+    height: 25px;
+    margin: 10px;
+    text-align: center;
+}
+
+#rodape{
+    background-color: #41424C;
+}
+
+#rodape{
+    background-color: #41424C;
+}
+
+h1>a{
+    text-decoration: none;
 }
