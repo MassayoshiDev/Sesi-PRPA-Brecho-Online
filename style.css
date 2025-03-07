@@ -27,6 +27,7 @@ body{
 
 #anni{
     background-color: #41424C;
+
     height: 100px;
     width: 100%;
 }
@@ -125,7 +126,9 @@ body{
     height: 50px;
 }
 
-
+.cat {
+    width: 250px;
+}
 #rodape {
    background-color: hwb(0 72% 28%);
    height: 150px;
