@@ -133,7 +133,8 @@ body{
     width: 250px;
 }
 #rodape {
-   background-color: hwb(0 72% 28%);
-   height: 150px;
-  margin: 10px;
+    background-color: hwb(0 72% 28%);
+    height: 25px;
+    margin: 10px;
+    text-align: center;
 }
