@@ -48,6 +48,10 @@ body{
     text-align: center;
 }
 
+.sim{
+    font-size: smaller;
+}
+
 .ImgBox{
     width: 350px;
     height: 330px;
