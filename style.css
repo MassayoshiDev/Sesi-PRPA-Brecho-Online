@@ -28,17 +28,20 @@ body{
 #anni{
     background-color: #41424C;
 
-    height: 100px;
+    height: 85px;
     width: 100%;
 }
 
 .flex{
+    justify-content: center;
  display: flex;
 }
 
 .flex >h1{
-    padding-left: 100px;
+    padding-right: 100px;
 }
+
+
 
 .flex>h1>a:hover{
     color: #a7a7a7;
