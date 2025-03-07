@@ -27,11 +27,18 @@ body{
 
 #anni{
     background-color: #41424C;
-    background-color: #41424C;
     height: 100px;
     width: 100%;
 }
 
+.flex{
+ display: flex;
+
+}
+
+.flex >h1{
+    padding-left: 100px;
+}
 
 .ImgBox{
     width: 350px;
