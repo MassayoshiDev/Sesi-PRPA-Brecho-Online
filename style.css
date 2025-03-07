@@ -32,6 +32,10 @@ body{
     width: 100%;
 }
 
+.flex>h1{
+    color: white;
+}
+
 .flex{
     justify-content: center;
  display: flex;
@@ -149,6 +153,8 @@ body{
 
 .cat {
     width: 250px;
+    border-radius: 20px;
+    padding-right: 40px;
 }
 #rodape {
     background-color: hwb(0 72% 28%);
@@ -197,4 +203,14 @@ a{
 
 .LilBox>img{
     width: 100%;
+}
+
+.AboutUs{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    width: 80%;
+    margin: auto;
 }
